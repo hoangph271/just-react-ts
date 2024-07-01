@@ -1,8 +1,10 @@
 import './App.css'
+import ManageProduct from './ManageProduct'
 
 export default function App() {
   return (
     <div>
+      <ManageProduct />
       <button
         onClick={async () => {
           // const devices = await navigator.mediaDevices.enumerateDevices();
